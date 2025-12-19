@@ -1,0 +1,24 @@
+{
+  "name": "llm-automation-project",
+  "version": "1.0.0",
+  "description": "LLM-powered automation tools using LangChain",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "summarize": "node src/summarizer.js",
+    "docs": "node src/docGenerator.js",
+    "chat": "node src/chatbot.js",
+    "analyze": "node src/codeAnalyzer.js"
+  },
+  "keywords": ["llm", "automation", "langchain", "ai"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "langchain": "^0.3.0",
+    "@langchain/openai": "^0.3.0",
+    "cheerio": "^1.0.0-rc.12",
+    "dotenv": "^16.3.1",
+    "axios": "^1.6.2",
+    "commander": "^11.1.0"
+  }
+}
